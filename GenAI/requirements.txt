@@ -1,0 +1,48 @@
+# Core AI/ML Libraries
+openai>=1.12.0
+anthropic>=0.18.0
+google-generativeai>=0.3.0
+
+# Azure AI Libraries (Optional)
+azure-ai-inference>=1.0.0
+azure-identity>=1.15.0
+
+# LangChain (for advanced applications)
+langchain>=0.1.0
+langchain-openai>=0.0.5
+
+# Vector Database (for RAG)
+chromadb>=0.4.22
+faiss-cpu>=1.7.4
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Web Scraping (for URL summarizer)
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# CLI Enhancements
+rich>=13.7.0
+click>=8.1.7
+
+# Jupyter Notebooks
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# API Development
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.6.0
+
+# Utilities
+tqdm>=4.66.0
+tenacity>=8.2.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
