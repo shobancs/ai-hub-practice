@@ -1,0 +1,15 @@
+# ── Core (required) ────────────────────────────────────────────────────────────
+openai>=1.30.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# ── Web scraping (optional — needed for --url support) ─────────────────────────
+beautifulsoup4>=4.12.0
+
+# ── Web UI (optional — needed for: python main.py --web) ──────────────────────
+gradio>=4.36.0
+
+# ── REST API (optional — needed for: python main.py --api) ────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
