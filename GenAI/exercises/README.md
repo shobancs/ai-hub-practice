@@ -164,6 +164,63 @@ Build complete applications integrating various techniques.
 
 ---
 
+## Agent Pattern Exercises 🤖
+
+These exercises cover the four fundamental agent orchestration patterns.
+See the [Agent Patterns Tutorial](../05-advanced/04-agent-patterns.md) for theory and diagrams.
+
+### Exercise 7: Single Agent — IT Help Desk Bot
+**Difficulty**: ⭐⭐ Intermediate  
+**Time**: 60-90 minutes  
+**Pattern**: Single Agent (tool-use loop)  
+**Concepts**: OpenAI function calling, agent loop, tool dispatch
+
+**Task**: Build an IT help desk agent with 5 tools (search knowledge base, lookup employee, check system status, reset password, create ticket). The agent autonomously decides which tools to use.
+
+**Starter Code**: `exercises/intermediate/07_single_agent.py`  
+**Solution**: `exercises/solutions/07_single_agent_solution.py`
+
+---
+
+### Exercise 8: Sequential Pipeline — Email Campaign Generator
+**Difficulty**: ⭐⭐ Intermediate  
+**Time**: 60-90 minutes  
+**Pattern**: Sequential (Pipeline)  
+**Concepts**: Multi-stage handoff, output validation, context passing
+
+**Task**: Build a 4-stage pipeline: Audience Analyzer → Subject Line Writer → Email Body Writer → A/B Test Planner. Each stage's output feeds into the next.
+
+**Starter Code**: `exercises/intermediate/08_sequential_agents.py`  
+**Solution**: `exercises/solutions/08_sequential_agents_solution.py`
+
+---
+
+### Exercise 9: Parallel Agents — Product Comparison Engine
+**Difficulty**: ⭐⭐ Intermediate  
+**Time**: 60-90 minutes  
+**Pattern**: Parallel  
+**Concepts**: asyncio, concurrent API calls, result aggregation
+
+**Task**: Analyze 3 products simultaneously using async agents, then aggregate into a comparison report. Includes timing comparison vs sequential.
+
+**Starter Code**: `exercises/intermediate/09_parallel_agents.py`  
+**Solution**: `exercises/solutions/09_parallel_agents_solution.py`
+
+---
+
+### Exercise 10: Hierarchical Agents — Startup Pitch Advisor
+**Difficulty**: ⭐⭐⭐ Advanced  
+**Time**: 90-120 minutes  
+**Pattern**: Hierarchical (Manager + Workers)  
+**Concepts**: Planning, delegation, review/feedback loops, synthesis
+
+**Task**: Build a Manager agent that plans, delegates to 4 specialist Workers (market, product, finance, GTM), reviews their work, and synthesizes a complete investor pitch.
+
+**Starter Code**: `exercises/intermediate/10_hierarchical_agents.py`  
+**Solution**: `exercises/solutions/10_hierarchical_agents_solution.py`
+
+---
+
 ## Advanced Projects
 
 ### Project 1: Research Assistant
@@ -379,6 +436,12 @@ Track your progress:
 - [ ] Exercise 4: Chain-of-Thought Calculator
 - [ ] Exercise 5: Multi-Document Q&A
 - [ ] Exercise 6: Chatbot with Memory
+
+**Agent Patterns** 🤖:
+- [ ] Exercise 7: Single Agent — IT Help Desk Bot
+- [ ] Exercise 8: Sequential Pipeline — Email Campaign Generator
+- [ ] Exercise 9: Parallel Agents — Product Comparison Engine
+- [ ] Exercise 10: Hierarchical Agents — Startup Pitch Advisor
 
 **Advanced**:
 - [ ] Project 1: Research Assistant

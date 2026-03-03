@@ -39,6 +39,8 @@ By the end of this course, students will:
 - [Retrieval-Augmented Generation (RAG)](./05-advanced/01-rag.md)
 - [Fine-Tuning Models](./05-advanced/02-fine-tuning.md)
 - [AI Agents and Workflows](./05-advanced/03-agents.md)
+- [Agent Patterns: Single, Sequential, Parallel & Hierarchical](./05-advanced/04-agent-patterns.md) 🆕
+- [Agent Use Cases & Practice Projects](./05-advanced/05-agent-use-cases.md) 🆕
 
 ### Module 6: Real-World Applications
 - [Use Case Examples](./06-applications/01-use-cases.md)
