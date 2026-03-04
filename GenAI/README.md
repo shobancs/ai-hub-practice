@@ -52,6 +52,13 @@ By the end of this course, students will:
 - [Bias and Fairness](./07-ethics/02-bias-fairness.md)
 - [Best Practices](./07-ethics/03-best-practices.md)
 
+### Module 8: Agentic Design Patterns 🆕
+> Based on *"Agentic Design Patterns"* by Antonio Gulli — 21 chapters covering core patterns, memory, resilience, and advanced architectures.
+
+- [📖 Full Module & Exercises](./08-agentic-patterns/README.md)
+- Tutorials: Prompt Chaining · Routing · Parallelization · Reflection · Tool Use · Planning · Multi-Agent · Guardrails
+- 8 hands-on exercises with solutions in `exercises/agentic/`
+
 ## 🛠️ Practical Examples
 
 Each module includes:
